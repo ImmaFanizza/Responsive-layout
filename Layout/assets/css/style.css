@@ -1,0 +1,123 @@
+body, html {
+    font-family: 'Fira Sans';
+}
+
+header {
+    box-shadow: 5px 5px 5px #a09b9f;
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+}
+
+#banner {
+    background-image: url(../images/banner.jpg);
+    padding-top: 280px;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+
+.spostato {
+
+    margin-top: 100px;
+}
+
+.spostato1 {
+
+    margin-top: 120px;
+}
+
+.boxbanner {
+    padding-left: 250px;
+    padding-bottom: 50px;
+    text-align: left;
+}
+
+#scrivici {
+    background-color: #0c0633;
+    color: white;
+    text-align: center;
+    height: 250px;
+    margin-bottom: 20px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+#contatti {
+    font-size: xx-large;
+}
+
+.immagine {
+    width: 80%;
+    text-align: center;
+}
+
+.inclinati {
+    background-color: #98f8f8;
+    width: 550px;
+    height: 200px;
+    transform: skewX(-10deg);
+    font-size: xx-large;
+    align-self: center;
+    text-align: center;
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+.rosso {
+    background-color: #ff3848;
+}
+
+.giallo {
+    background-color: #f3e562;
+}
+
+.gradiente {
+    background: rgb(81, 179, 221);
+    background: linear-gradient(52deg, rgba(81, 179, 221, 0.9953023445706407) 12%, rgba(92, 162, 200, 1) 48%, rgba(150, 184, 208, 1) 98%, rgba(134, 217, 226, 1) 98%, rgba(139, 217, 230, 0.9868989832261029) 100%);
+    color: white;
+    border: none;
+}
+
+ul li {
+    list-style: none;
+    text-align: left;
+}
+
+i {
+    color: #ff3848;
+}
+
+div a i {
+
+    color: black;
+}
+
+footer i {
+    color: rgb(0, 132, 255);
+}
+
+@media screen and (min-width: 576px) {
+    .contenitore {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .immagine {
+        width: 65%;
+        text-align: center;
+    }
+
+    .inclinati {
+        padding-left: 60px;
+        align-self: center;
+        transform: skew(-15deg);
+        margin-left: 20px;
+        width: 70%;
+        height: 80%;
+
+    }
+
+
+}
