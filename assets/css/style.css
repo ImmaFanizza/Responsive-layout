@@ -1,5 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+   
+}
+
 body, html {
     font-family: 'Fira Sans';
+    overflow-x: hidden;
 }
 
 header {
@@ -15,6 +22,7 @@ header {
     background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;
+    
 }
 
 .spostato {
@@ -28,7 +36,7 @@ header {
 }
 
 .boxbanner {
-    padding-left: 250px;
+    padding-left: 150px;
     padding-bottom: 50px;
     text-align: left;
 }
@@ -50,11 +58,12 @@ header {
 .immagine {
     width: 80%;
     text-align: center;
+    
 }
 
 .inclinati {
     background-color: #98f8f8;
-    width: 550px;
+    width: 350px;
     height: 200px;
     transform: skewX(-10deg);
     font-size: xx-large;
@@ -97,6 +106,7 @@ footer i {
     color: rgb(0, 132, 255);
 }
 
+
 @media screen and (min-width: 576px) {
     .contenitore {
         display: flex;
@@ -105,7 +115,7 @@ footer i {
     }
 
     .immagine {
-        width: 65%;
+        width: 613px;
         text-align: center;
     }
 
@@ -119,5 +129,18 @@ footer i {
 
     }
 
+    .boxbanner {
+        padding-left: 250px;
+        padding-bottom: 50px;
+    }
+}
 
+@media screen and (min-width:577px) and (max-width:1199px){
+    .immagine{
+        width: 300px;
+        height: 200px;
+    }
+    .inclinati{
+        font-size: small;
+    }
 }
